@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.cgxCode</groupId>
+    <artifactId>KnowledgeRecords</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>java-socket</module>
+        <module>java-osm</module>
+        <module>java-websocket</module>
+        <module>java-string</module>
+        <module>java-sparkSql</module>
+    </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.7</java.version>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+
+        <spark.version>2.4.4</spark.version>
+        <spring.version>4.3.2.RELEASE</spring.version>
+        <mysql.version>5.1.44</mysql.version>
+        <h2.version>1.4.196</h2.version>
+        <junit.version>4.12</junit.version>
+        <lombok.version>1.18.0</lombok.version>
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+        <dependency>
+            <groupId>org.dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+    </dependencies>
+</project>
